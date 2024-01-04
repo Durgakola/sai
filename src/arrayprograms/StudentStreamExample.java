@@ -20,7 +20,6 @@ public class StudentStreamExample {
         student.add(a1);
         student.add(a2);
         student.add(a3);
-
         List<ArrayStudent>streamMatchednames=student.stream().filter(matchedPredicate).collect(Collectors.toList());
         System.out.println(streamMatchednames);
 

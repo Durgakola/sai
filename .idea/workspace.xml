@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14e6400a-ec32-433c-9fc6-c46a6db0aff9" name="Changes" comment="hello">
+      <change afterPath="$PROJECT_DIR$/src/Bank/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/BankTestclass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Bank/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlightTicket/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlightTicket/Customer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlightTicket/FlightTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlightTicket/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlightTicket/PassPort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/ArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/mainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/practice/trainTicket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrayprograms/StudentStreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/arrayprograms/StudentStreamExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +60,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StudentStreamExample">
-    <configuration name="Array1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprograms.Array1" />
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="ArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.ArrayTest" />
       <module name="javac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprograms.*" />
+          <option name="PATTERN" value="FlightTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,19 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayClient" />
-      <module name="javac" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprograms.ArrayListExample" />
+    <configuration name="BankTestclass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bank.BankTestclass" />
       <module name="javac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprograms.*" />
+          <option name="PATTERN" value="FlightTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprograms.ArrayListTest" />
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FlightTicket.MainClass" />
       <module name="javac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprograms.*" />
+          <option name="PATTERN" value="FlightTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayprograms.StudentStreamExample" />
+    <configuration name="mainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.mainTest" />
       <module name="javac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayprograms.*" />
+          <option name="PATTERN" value="FlightTicket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="trainTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.trainTicket" />
+      <module name="javac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FlightTicket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StudentStreamExample" />
-        <item itemvalue="Application.Array1" />
-        <item itemvalue="Application.ArrayListTest" />
-        <item itemvalue="Application.ArrayClient" />
-        <item itemvalue="Application.ArrayListExample" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.BankTestclass" />
+        <item itemvalue="Application.mainTest" />
+        <item itemvalue="Application.trainTicket" />
+        <item itemvalue="Application.ArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703743410955</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello">
+      <created>1703744828419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703744828419</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hello">
+      <created>1703744926845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703744926845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
