@@ -11,6 +11,7 @@ public class TicketBlockException extends Exception {
     }
 
     public String getTickes() {
+
         return tickes;
     }
 }
